@@ -2,17 +2,17 @@ import React from 'react';
 
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <a
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.components{
+  render(){
+    return(
+      <h1>
+          bzzz
+        </h1>
+    )
+  }
 }
 
 export default App;
+
+
+
